@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-06-29T15:50:38" hostname="DESKTOP-K5GN7LP" time="0.045">
+  <properties/>
+  <testcase name="GivenInvalidArgument_WhenRoundCalled_ThrowIllegalArgumentException()" classname="GameTests" time="0.023"/>
+  <testcase name="given3winsFromP1_whenWinCalled_returnTrue()" classname="GameTests" time="0.001"/>
+  <testcase name="GivenP1andP2SubmitSame_andRoundCalled_noIncreaseInScore()" classname="GameTests" time="0.004"/>
+  <testcase name="whenP1wins_UpdateP1scoreBy1()" classname="GameTests" time="0.002"/>
+  <testcase name="GivenP2SandP1P_andRoundCalled_increaseP2ScoreBy1()" classname="GameTests" time="0.001"/>
+  <testcase name="whenP2wins_UpdateP2scoreBy1()" classname="GameTests" time="0.001"/>
+  <testcase name="GivenP1SandP2P_andWinCalled_increaseP1ScoreBy1()" classname="GameTests" time="0.0"/>
+  <testcase name="initialGameShouldHave0to0Score()" classname="GameTests" time="0.002"/>
+  <testcase name="paperBeatsRock()" classname="GameTests" time="0.001"/>
+  <testcase name="given0or1or2wins_whenWinCalled_returnFalse()" classname="GameTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
